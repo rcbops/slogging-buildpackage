@@ -1,0 +1,50 @@
+slogging (1.1.3-2) lucid; urgency=low
+
+  * rebuild for rcb packages
+
+ -- RCB Builder <rcb-deploy@lists.rackspace.com>  Thu, 17 Nov 2011 16:51:27 -0600
+
+slogging (1.1.3-1) lucid; urgency=low
+
+  * Removed lock_file since it's now in swift
+  * Bugfix related to calling sleep()
+
+ -- John Dickinson <me@not.mn>  Thu, 01 Sep 2011 16:19:34 +0000
+
+slogging (1.1.2-1) lucid; urgency=low
+
+  * Fixed bug in access log delivery metadata check
+
+ -- John Dickinson <me@not.mn>  Tue, 16 Aug 2011 22:31:31 +0000
+
+slogging (1.1.1-1) lucid; urgency=low
+
+  * Config file fix for access log delivery
+  * Access log delivery bugfix to allow non-lower case values in the metadata value
+
+ -- John Dickinson <me@not.mn>  Tue, 16 Aug 2011 15:47:55 +0000
+
+slogging (1.1-2) lucid; urgency=low
+
+  * Added access log delivery files to packaging
+
+ -- John Dickinson <me@not.mn>  Fri, 12 Aug 2011 17:59:46 +0000
+
+slogging (1.1-1) lucid; urgency=low
+
+  * Added access log delivery feature
+  * Made account stats log processing more robust and added tests
+
+ -- John Dickinson <me@not.mn>  Mon, 08 Aug 2011 17:30:46 +0000
+
+slogging (1.0.1-1) lucid; urgency=low
+
+  * Fixed request copy in internal proxy to work with later versions of webob
+
+ -- John Dickinson <me@not.mn>  Tue, 02 Aug 2011 15:13:00 +0000
+
+slogging (1.0-1) lucid; urgency=low
+
+  * Initial release after separation from swift project
+
+ -- John Dickinson <me@not.mn>  Fri, 17 Jun 2011 19:34:02 +0000

@@ -1,0 +1,6 @@
+usr/lib/python*/dist-packages/*
+usr/bin/swift-account-stats-logger
+usr/bin/swift-container-stats-logger
+usr/bin/swift-log-stats-collector
+usr/bin/swift-log-uploader
+usr/bin/swift-access-log-delivery
