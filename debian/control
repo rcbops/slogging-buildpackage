@@ -23,7 +23,7 @@ XS-Python-Version: >= 2.6
 Homepage: https://github.com/notmyname/slogging
 Vcs-Browser: https://github.com/notmyname/slogging
 Vcs-Git: https://github.com/notmyname/slogging
-
+XCBS-RCB-Component: diablo-final
 
 Package: python-slogging
 Architecture: all
